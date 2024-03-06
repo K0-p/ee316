@@ -1,3 +1,3 @@
-# ece316
+# EE316
 
 Verilog labs for EE316
