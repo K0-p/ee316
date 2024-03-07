@@ -24,12 +24,14 @@ always @(*) begin
                 next_state = 2'b01;
             end
         2'b01   : begin
+            outedge = 1'b1;
             if(~signal)
                 next_state = 2'b00;
             else
                 next_state = 2'b10;
             end
         2'b10   : begin
+            outedge = 1'b0;
             if(~signal)
                 next_state = 2'b00;
             else
