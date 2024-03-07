@@ -21,13 +21,19 @@ always @(*) begin
             if (~signal)
                 next_state = 2'b00;
             else
-                next_state = 2'b10;
+                next_state = 2'b01;
             end
         2'b01   : begin
-            //CODE//
+            if(~signal)
+                next_state = 2'b00;
+            else
+                next_state = 2'b10;
             end
         2'b10   : begin
-            //CODE//
+            if(~signal)
+                next_state = 2'b00;
+            else
+                next_state = 2'b10;
             end
         
         default : begin
