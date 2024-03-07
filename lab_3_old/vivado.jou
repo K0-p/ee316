@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Feb 16 03:08:57 2024
+# Process ID: 72480
+# Current directory: C:/Users/gabri/Desktop/UT/junior/EE316/lab_3_old
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent73660 C:\Users\gabri\Desktop\UT\junior\EE316\lab_3_old\lab_3.xpr
+# Log file: C:/Users/gabri/Desktop/UT/junior/EE316/lab_3_old/vivado.log
+# Journal file: C:/Users/gabri/Desktop/UT/junior/EE316/lab_3_old\vivado.jou
+# Running On: Spicetop, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17036 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gabri/Desktop/UT/junior/EE316/lab_3_old/lab_3.xpr
