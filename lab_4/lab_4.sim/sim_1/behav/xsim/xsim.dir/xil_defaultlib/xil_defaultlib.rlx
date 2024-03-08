@@ -2,12 +2,9 @@
 2020.2
 Oct 13 2023
 20:47:58
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.sim/sim_1/behav/xsim/glbl.v,1709862067,verilog,,,,glbl,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sim_1/new/tb_rising_edge.v,1709870832,verilog,,,,tb_rising_edge,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sim_1/new/tb_time_multi.v,1709873552,verilog,,,,tb_time_multi,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/clk_div.v,1709872206,verilog,,C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/hex2segment.v,,clk_div,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/clkdiv.v,1709870560,verilog,,C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/rising_edge.v,,clkdiv,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/hex2segment.v,1709871745,verilog,,C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/time_multi.v,,hex2segment,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/rising_edge.v,1709870560,verilog,,C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sim_1/new/tb_rising_edge.v,,rising_edge,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/time_multi.v,1709872206,verilog,,C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/time_mux_fsm.v,,time_multi,,,,,,,,
-C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sources_1/new/time_mux_fsm.v,1709873973,verilog,,C:/Users/bigbl/skewl/316/ee316/lab_4/lab_4.srcs/sim_1/new/tb_time_multi.v,,time_mux_fsm,,,,,,,,
+C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sim_1/new/tb_time_multi.v,1709875481,verilog,,,,tb_time_multi,,,,,,,,
+C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/clk_div.v,1709872136,verilog,,C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/hex2segment.v,,clk_div,,,,,,,,
+C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/hex2segment.v,1709871857,verilog,,C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_multi.v,,hex2segment,,,,,,,,
+C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_multi.v,1709875209,verilog,,C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_mux_fsm.v,,time_multi,,,,,,,,
+C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_mux_fsm.v,1709872713,verilog,,C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sim_1/new/tb_time_multi.v,,time_mux_fsm,,,,,,,,

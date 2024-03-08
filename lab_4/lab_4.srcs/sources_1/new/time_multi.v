@@ -5,11 +5,12 @@ module time_multi(
     input reset,
     input [15:0] sw,
     output [3:0] an,
-    output [6:0] sseg
+    output [6:0] sseg,
+    output wire slow_clk
 );
 
 wire [6:0] in0, in1, in2, in3;
-wire slow_clk;
+//wire slow_clk;
 
 //Module instant of hex2sec decoder
 hex2segment c1 (.x(sw[3:0]), .r(in0));
