@@ -9,7 +9,7 @@ module flight_attend_data(
 
 wire next_state;
 
-assign next_state = 0;
+assign next_state = call_button | (!cancel_button & light_state);
 
 always @(posedge clk) begin
     light_state <= next_state;

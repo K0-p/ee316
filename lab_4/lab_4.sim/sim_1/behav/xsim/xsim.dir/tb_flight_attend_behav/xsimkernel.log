@@ -1,4 +1,7 @@
-Running: xsim.dir/tb_flight_attend_behav/xsimk.exe -simmode gui -wdb tb_flight_attend_behav.wdb -simrunnum 0 -socket 61019
+Running: xsim.dir/tb_flight_attend_behav/xsimk.exe -simmode gui -wdb tb_flight_attend_behav.wdb -simrunnum 0 -socket 62190
 Design successfully loaded
-Design Loading Memory Usage: 7964 KB (Peak: 7964 KB)
+Design Loading Memory Usage: 7884 KB (Peak: 7884 KB)
 Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 8516 KB (Peak: 8516 KB)
+Simulation CPU Usage: 0 ms

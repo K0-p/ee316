@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../lab_4.srcs/sources_1/new/flight_attend.v" \
-"../../../../lab_4.srcs/sim_1/new/tb_flight_attend.v" \
+"../../../../lab_4.srcs/sources_1/new/flight_attend_data.v" \
+"../../../../lab_4.srcs/sim_1/new/tb_flight_attend_data.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
