@@ -3,21 +3,21 @@
 module tb_time_multi();
 
 reg clk;
-wire slow_clk;
+//wire slow_clk;
 
-reg reset;
-reg [15:0] sw;
+//reg reset;
+//reg [15:0] sw;
 
-wire [3:0] an;
-wire [6:0] sseg;
+//wire [3:0] an;
+//wire [6:0] sseg;
 
 time_multi ul(
-    .clk(clk),
-    .slow_clk(slow_clk),
-    .reset(reset),
-    .sw(sw),
-    .an(an),
-    .sseg(sseg)
+    .clk(clk)
+    //.slow_clk(slow_clk),
+    //.reset(reset),
+    //.sw(sw),
+    //.an(an),
+    //.sseg(sseg)
 ); 
 
 
@@ -25,6 +25,7 @@ initial
 begin
 
 clk = 0;
+/*
 reset = 0;
 sw = 0;
 

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Mar  7 22:24:59 2024
+# Process ID: 2876
+# Current directory: C:/Users/gabri/Desktop/UT/junior/EE316/lab_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18020 C:\Users\gabri\Desktop\UT\junior\EE316\lab_4\lab_4.xpr
+# Log file: C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/vivado.log
+# Journal file: C:/Users/gabri/Desktop/UT/junior/EE316/lab_4\vivado.jou
+# Running On: Spicetop, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17036 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_mux_fsm.v C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_multi.v}
+update_compile_order -fileset sources_1
+close [ open C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/clk_div.v w ]
+add_files C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/clk_div.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sim_1/new/tb_time_multi.v w ]
+add_files -fileset sim_1 C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sim_1/new/tb_time_multi.v
+update_compile_order -fileset sim_1

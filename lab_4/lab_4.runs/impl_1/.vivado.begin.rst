@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="8076" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="21772" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="20168" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="28540" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="29104" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="15860" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="2700" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="26656" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="23208" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="28780" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="gabri" Host="SPICETOP" Pid="29196" HostCore="12" HostMemory="017036509184">
+    </Process>
+</ProcessHandle>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1709920312">
+  <File Type="ROUTE-PWR" Name="rising_edge_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="rising_edge.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="rising_edge_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="rising_edge_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="rising_edge_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="rising_edge.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="rising_edge_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="rising_edge_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="rising_edge_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="rising_edge_opt.dcp"/>
+  <File Type="OPT-DRC" Name="rising_edge_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="rising_edge.hwdef"/>
+  <File Type="PWROPT-DCP" Name="rising_edge_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="rising_edge_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="rising_edge_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="rising_edge_placed.dcp"/>
+  <File Type="PLACE-IO" Name="rising_edge_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="rising_edge_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="rising_edge_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="rising_edge_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="rising_edge_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="rising_edge_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="rising_edge_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="rising_edge.bin"/>
+  <File Type="PLACE-TIMING" Name="rising_edge_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="rising_edge_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="rising_edge_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="rising_edge_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="rising_edge.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="rising_edge_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="rising_edge_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="rising_edge_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="rising_edge.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="rising_edge_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="rising_edge_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="rising_edge_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="rising_edge_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="rising_edge_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="rising_edge_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="rising_edge_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="rising_edge_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="rising_edge_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="rising_edge_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="rising_edge_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="rising_edge_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="rising_edge_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="rising_edge_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="rising_edge_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="rising_edge_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="rising_edge_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="rising_edge_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="rising_edge_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="rising_edge_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="rising_edge_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="rising_edge_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="rising_edge_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="rising_edge_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="rising_edge_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="rising_edge_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="rising_edge_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="rising_edge.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="rising_edge_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="rising_edge_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="rising_edge.nky"/>
+  <File Type="BITSTR-BMM" Name="rising_edge_bd.bmm"/>
+  <File Type="PDI-FILE" Name="rising_edge.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="rising_edge_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="rising_edge_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="rising_edge.rcfi"/>
+  <File Type="CFI_FILE" Name="rising_edge.cfi"/>
+  <File Type="RNPI_FILE" Name="rising_edge.rnpi"/>
+  <File Type="NPI_FILE" Name="rising_edge.npi"/>
+  <File Type="RBD_FILE" Name="rising_edge.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="rising_edge.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="rising_edge.sysdef"/>
+  <File Type="BG-BGN" Name="rising_edge.bgn"/>
+  <File Type="BG-DRC" Name="rising_edge.drc"/>
+  <File Type="RDI-RDI" Name="rising_edge.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="rising_edge_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="rising_edge_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clkdiv.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rising_edge.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flight_attend.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flight_attend_data.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hex2segment.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/time_mux_fsm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/time_multi.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_div.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="rising_edge"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/flight_attend.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rising_edge.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/part3.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/flight_attend.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
