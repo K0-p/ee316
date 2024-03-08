@@ -72,3 +72,5 @@ set_property PROGRAM.FILE {C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.ru
 program_hw_devices [get_hw_devices xc7a35t_0]
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
 close_hw_manager
+set_property is_enabled true [get_files  C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/constrs_1/new/flight_attend.xdc]
+set_property is_enabled true [get_files  C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/rising_edge.xdc]
