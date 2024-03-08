@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Mar  8 12:09:36 2024
-# Process ID: 21464
+# Start of session at: Thu Mar  7 23:01:23 2024
+# Process ID: 24064
 # Current directory: C:/Users/gabri/Desktop/UT/junior/EE316/lab_4
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6084 C:\Users\gabri\Desktop\UT\junior\EE316\lab_4\lab_4.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10668 C:\Users\gabri\Desktop\UT\junior\EE316\lab_4\lab_4.xpr
 # Log file: C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/vivado.log
 # Journal file: C:/Users/gabri/Desktop/UT/junior/EE316/lab_4\vivado.jou
 # Running On: Spicetop, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17036 MB
@@ -15,7 +15,3 @@ start_gui
 open_project C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.xpr
 update_compile_order -fileset sources_1
 launch_simulation
-launch_simulation
-launch_simulation
-source tb_time_multi.tcl
-close_sim

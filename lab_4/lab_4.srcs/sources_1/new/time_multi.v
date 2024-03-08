@@ -19,7 +19,7 @@ hex2segment c3 (.x(sw[11:8]), .r(in2));
 hex2segment c4 (.x(sw[15:12]), .r(in3));
 
 //Module instant of clock divider
-clk_div c5 (.clk(clk), .reset(reset), .slow_clk(slow_clk));
+clk_div c5 (.clk(clk), .reset(reset), .clk_out(slow_clk));
 
 //Module instant of multiplexer
 time_mux_fsm c6(
