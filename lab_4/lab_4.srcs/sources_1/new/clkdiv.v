@@ -5,16 +5,16 @@ module clkdiv(
     output clk_out
 );
 
-reg[15:0] COUNT;
+    reg[1:0] COUNT;
     
-    assign clk_out=COUNT[15];
-    
-    always @(posedge clk)
-    begin
-    if(reset)
-        COUNT = 0;
-    else
-        COUNT = COUNT+1;
-    end
+        assign clk_out=COUNT[1];
+                
+        always @(posedge clk)
+        begin
+        if (reset)
+            COUNT = 0;
+        else
+            COUNT = COUNT + 1;
+        end
 
-endmodule
+    endmodule
