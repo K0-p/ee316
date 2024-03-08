@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log rising_edge.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rising_edge.tcl
+EAStep vivado -log time_multi.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source time_multi.tcl

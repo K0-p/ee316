@@ -1,79 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1709920312">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1709923204">
   <File Type="ROUTE-PWR" Name="time_multi_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="rising_edge.tcl"/>
+  <File Type="PA-TCL" Name="time_multi.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="time_multi_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="rising_edge_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="rising_edge.msk"/>
-  <File Type="ROUTE-CLK" Name="time_multi_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="rising_edge.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="time_multi_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="rising_edge.bit"/>
-  <File Type="BG-DRC" Name="rising_edge.drc"/>
-  <File Type="BG-BGN" Name="rising_edge.bgn"/>
-  <File Type="BG-BIN" Name="rising_edge.bin"/>
-  <File Type="BITSTR-RBT" Name="rising_edge.rbt"/>
-  <File Type="BITSTR-NKY" Name="rising_edge.nky"/>
-  <File Type="BITSTR-BMM" Name="rising_edge_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="rising_edge.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="time_multi_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-SYSDEF" Name="rising_edge.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="rising_edge.ltx"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="REPORTS-TCL" Name="time_multi_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="time_multi_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="time_multi.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="time_multi_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="time_multi_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="time_multi_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="time_multi_opt.dcp"/>
   <File Type="OPT-DRC" Name="time_multi_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="rising_edge.hwdef"/>
+  <File Type="OPT-HWDEF" Name="time_multi.hwdef"/>
+  <File Type="PWROPT-DCP" Name="time_multi_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="time_multi_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="time_multi_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="time_multi_placed.dcp"/>
   <File Type="PLACE-IO" Name="time_multi_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="time_multi_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="time_multi_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="time_multi_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="time_multi_control_sets_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="rising_edge_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="time_multi_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="time_multi_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="time_multi.bin"/>
+  <File Type="PLACE-TIMING" Name="time_multi_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="time_multi_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="time_multi_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="time_multi_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="time_multi.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="time_multi_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="time_multi_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="time_multi_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="time_multi.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="time_multi_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="time_multi_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="time_multi_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="time_multi_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="time_multi_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="time_multi_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="time_multi_power_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="time_multi_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="time_multi_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="time_multi_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="time_multi_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="time_multi_rqs_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="time_multi_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="time_multi_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="rising_edge_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="rising_edge_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="rising_edge_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="time_multi_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="rising_edge_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-PB" Name="time_multi_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="time_multi_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="time_multi_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="time_multi_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="time_multi_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="time_multi_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="time_multi_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="rising_edge_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="rising_edge_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="rising_edge_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="rising_edge_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="rising_edge_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="rising_edge_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="rising_edge_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="time_multi_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="time_multi_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="time_multi_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="time_multi_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="time_multi_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="time_multi_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="time_multi.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="time_multi_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="time_multi_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="time_multi_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="time_multi_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="time_multi_methodology_drc_routed.rpx"/>
-  <File Type="PDI-FILE" Name="rising_edge.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="rising_edge_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="rising_edge_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="rising_edge.rcfi"/>
-  <File Type="CFI_FILE" Name="rising_edge.cfi"/>
-  <File Type="RNPI_FILE" Name="rising_edge.rnpi"/>
-  <File Type="NPI_FILE" Name="rising_edge.npi"/>
-  <File Type="RBD_FILE" Name="rising_edge.rbd"/>
-  <File Type="ROUTE-RQS" Name="rising_edge_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="rising_edge_postroute_physopted.rqs"/>
+  <File Type="BITSTR-NKY" Name="time_multi.nky"/>
+  <File Type="BITSTR-BMM" Name="time_multi_bd.bmm"/>
+  <File Type="PDI-FILE" Name="time_multi.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="time_multi_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="time_multi_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="time_multi.rcfi"/>
+  <File Type="CFI_FILE" Name="time_multi.cfi"/>
+  <File Type="RNPI_FILE" Name="time_multi.rnpi"/>
+  <File Type="NPI_FILE" Name="time_multi.npi"/>
+  <File Type="RBD_FILE" Name="time_multi.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="time_multi.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="time_multi.sysdef"/>
+  <File Type="BG-BGN" Name="time_multi.bgn"/>
+  <File Type="BG-DRC" Name="time_multi.drc"/>
+  <File Type="RDI-RDI" Name="time_multi.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="time_multi_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="time_multi_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/clk_div.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/hex2segment.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/time_mux_fsm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/time_multi.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/clkdiv.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -81,6 +124,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/rising_edge.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -102,41 +146,9 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/hex2segment.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/time_mux_fsm.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/time_multi.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/clk_div.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="rising_edge"/>
+      <Option Name="TopModule" Val="time_multi"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -150,13 +162,13 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/rising_edge.xdc">
       <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/part3.xdc">
       <FileInfo>
-        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
@@ -190,6 +202,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
