@@ -342,3 +342,142 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation S
 // Elapsed Time for: 'L.f': 06m:06s
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_time_multi (tb_time_multi.v)]", 14, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_time_multi (tb_time_multi.v)]", 14, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("tb_time_multi.v", 332, 161); // ad (tb_time_multi.v)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex2segment.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 30 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+floatFrame(PAResourceOtoP.PAViews_CODE, "time_mux_fsm.v"); // R (PAResourceOtoP.PAViews_CODE, Code (3))
+// PAResourceOtoP.PAViews_CODE: Code: float view
+selectCodeEditor("time_mux_fsm.v", 229, 156); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 110, 74); // ad (time_mux_fsm.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,189 MB. GUI used memory: 77 MB. Current time: 3/7/24, 10:32:46 PM CST
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,222 MB. GUI used memory: 72 MB. Current time: 3/7/24, 10:33:11 PM CST
+// Elapsed time: 16 seconds
+selectCodeEditor("time_mux_fsm.v", 34, 116, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'c'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,282 MB. GUI used memory: 72 MB. Current time: 3/7/24, 10:33:26 PM CST
+selectCodeEditor("time_mux_fsm.v", 253, 156); // ad (time_mux_fsm.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+dockFrame(PAResourceOtoP.PAViews_CODE, "time_mux_fsm.v"); // R (PAResourceOtoP.PAViews_CODE, Code (3))
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+// [Engine Memory]: 1,287 MB (+57395kb) [00:08:29]
+// Elapsed Time for: 'L.f': 08m:16s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 08m:18s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_mux_fsm.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+floatFrame(PAResourceOtoP.PAViews_CODE, "time_mux_fsm.v"); // R (PAResourceOtoP.PAViews_CODE, Code (3))
+// PAResourceOtoP.PAViews_CODE: Code: float view
+selectCodeEditor("time_mux_fsm.v", 439, 323); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 201, 174); // ad (time_mux_fsm.v)
+// Elapsed time: 29 seconds
+selectCodeEditor("time_mux_fsm.v", 1, 284, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'c'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 274 MB (+100775kb) [00:09:15]
+// Elapsed Time for: 'L.f': 09m:02s
+selectCodeEditor("time_mux_fsm.v", 143, 344); // ad (time_mux_fsm.v)
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed Time for: 'L.f': 09m:04s
+selectCodeEditor("time_mux_fsm.v", 265, 315); // ad (time_mux_fsm.v)
+// Elapsed time: 17 seconds
+selectCodeEditor("time_mux_fsm.v", 74, 367); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 158, 365); // ad (time_mux_fsm.v)
+// Elapsed time: 16 seconds
+selectCodeEditor("time_mux_fsm.v", 74, 391, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'c'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 113, 407); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 295, 413); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 439, 407); // ad (time_mux_fsm.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 10m:00s
+selectCodeEditor("time_mux_fsm.v", 164, 368); // ad (time_mux_fsm.v)
+// Elapsed Time for: 'L.f': 10m:02s
+selectCodeEditor("time_mux_fsm.v", 173, 348); // ad (time_mux_fsm.v)
+// Elapsed time: 32 seconds
+selectCodeEditor("time_mux_fsm.v", 75, 512); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 4, 348, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'c'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 186, 576); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 57, 575); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 705, 580, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+selectCodeEditor("time_mux_fsm.v", 326, 675); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 132, 621); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 322, 622, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+selectCodeEditor("time_mux_fsm.v", 138, 619, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'c'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 138, 646); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 315, 647, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 130, 666); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 136, 666); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 318, 665, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 135, 690); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 334, 688, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:12s
+// Elapsed Time for: 'L.f': 11m:14s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+selectCodeEditor("time_mux_fsm.v", 68, 721); // ad (time_mux_fsm.v)
+// Elapsed time: 19 seconds
+selectCodeEditor("time_mux_fsm.v", 113, 694); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 43, 603, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+selectCodeEditor("time_mux_fsm.v", 41, 580, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+selectCodeEditor("time_mux_fsm.v", 36, 575, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'c'); // ad (time_mux_fsm.v)
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 96, 672); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 213, 686); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 59, 685, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+selectCodeEditor("time_mux_fsm.v", 163, 708); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 202, 663); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 135, 683); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 221, 680, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+selectCodeEditor("time_mux_fsm.v", 135, 686, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'c'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 135, 710); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 225, 710, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 137, 725); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 226, 727, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 136, 749); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 227, 747, true, false, false, false, false); // ad (time_mux_fsm.v) - Shift Key
+typeControlKey((HResource) null, "time_mux_fsm.v", 'v'); // ad (time_mux_fsm.v)
+selectCodeEditor("time_mux_fsm.v", 371, 738); // ad (time_mux_fsm.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 12m:32s
+selectCodeEditor("time_mux_fsm.v", 104, 784); // ad (time_mux_fsm.v)
+// Elapsed Time for: 'L.f': 12m:34s
+// Elapsed time: 42 seconds
+selectCodeEditor("time_mux_fsm.v", 253, 780); // ad (time_mux_fsm.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 13m:20s
+// Elapsed Time for: 'L.f': 13m:22s
+// Elapsed time: 43 seconds
+dockFrame(PAResourceOtoP.PAViews_CODE, "time_mux_fsm.v"); // R (PAResourceOtoP.PAViews_CODE, Code (3))
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectCodeEditor("time_mux_fsm.v", 455, 162); // ad (time_mux_fsm.v)
