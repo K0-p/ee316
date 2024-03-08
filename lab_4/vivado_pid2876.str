@@ -188,3 +188,112 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation S
 expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, time_multi (time_multi.v)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, time_multi (time_multi.v), c6 : time_mux_fsm (time_mux_fsm.v)]", 15, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, time_multi (time_multi.v), c6 : time_mux_fsm (time_mux_fsm.v)]", 15, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 35 seconds
+selectCodeEditor("time_mux_fsm.v", 191, 133); // ad (time_mux_fsm.v)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, time_multi (time_multi.v)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+floatFrame(PAResourceOtoP.PAViews_CODE, "time_multi.v"); // R (PAResourceOtoP.PAViews_CODE, Code (2))
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 1,148 MB. GUI used memory: 76 MB. Current time: 3/7/24, 10:27:06 PM CST
+dockFrame(PAResourceOtoP.PAViews_CODE, "time_multi.v"); // R (PAResourceOtoP.PAViews_CODE, Code (2))
+// PAResourceOtoP.PAViews_CODE: Code: dock view
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex2segment.v", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_mux_fsm.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rising_edge (rising_edge.v)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rising_edge (rising_edge.v)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rising_edge (rising_edge.v)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+// [GUI Memory]: 169 MB (+6581kb) [00:02:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,165 MB. GUI used memory: 77 MB. Current time: 3/7/24, 10:27:36 PM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, time_multi (time_multi.v)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_mux_fsm.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_flight_attend_data (tb_flight_attend_data.v)]", 17); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_flight_attend (tb_flight_attend.v)]", 16); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_flight_attend (tb_flight_attend.v)]", 16, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_flight_attend (tb_flight_attend.v)]", 16); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_flight_attend_data (tb_flight_attend_data.v)]", 17); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_rising_edge (tb_rising_edge.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_rising_edge (tb_rising_edge.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clk_div"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Create Source File"); // m (dialog3)
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (dialog2)
+// Tcl Message: close [ open C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/clk_div.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/clk_div.v 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // p (dialog4)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:00s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:02s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, time_multi (time_multi.v), c5 : clk_div (clk_div.v)]", 14, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, time_multi (time_multi.v), c5 : clk_div (clk_div.v)]", 14, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed Time for: 'L.f': 03m:04s
+selectCodeEditor("clk_div.v", 89, 294); // ad (clk_div.v)
+selectCodeEditor("clk_div.v", 274, 13, true, false, false, false, false); // ad (clk_div.v) - Shift Key
+// Elapsed Time for: 'L.f': 03m:06s
+selectCodeEditor("clk_div.v", 150, 119); // ad (clk_div.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:08s
+// Elapsed Time for: 'L.f': 03m:10s
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_rising_edge (tb_rising_edge.v)]", 8); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_rising_edge (tb_rising_edge.v), ul : rising_edge (rising_edge.v), cl : clkdiv (clkdiv.v)]", 10, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_rising_edge (tb_rising_edge.v), ul : rising_edge (rising_edge.v), cl : clkdiv (clkdiv.v)]", 10, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+typeControlKey((HResource) null, "clkdiv.v", 'c'); // ad (clkdiv.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("clk_div.v", 112, 79); // ad (clk_div.v)
+selectCodeEditor("clk_div.v", 124, 128); // ad (clk_div.v)
+typeControlKey((HResource) null, "clk_div.v", 'v'); // ad (clk_div.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:24s
+// Elapsed Time for: 'L.f': 03m:26s
+selectCodeEditor("clk_div.v", 174, 75); // ad (clk_div.v)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // J (PAResourceOtoP.PAViews_CODE, PlanAheadTabCode)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_rising_edge (tb_rising_edge.v)]", 9); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("clk_div.v", 97, 30); // ad (clk_div.v)
+selectCodeEditor("clk_div.v", 97, 30, false, false, false, false, true); // ad (clk_div.v) - Double Click
+selectCodeEditor("clk_div.v", 97, 30); // ad (clk_div.v)
+selectCodeEditor("clk_div.v", 220, 94); // ad (clk_div.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 03m:42s
+// Elapsed Time for: 'L.f': 03m:44s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: No error 
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 3, true, false); // o (PlanAheadTabBaseWorkspace_JideTabbedPane) - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div.v", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_mux_fsm.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_multi.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// [Engine Memory]: 1,173 MB (+430kb) [00:04:36]
+selectCodeEditor("time_multi.v", 46, 291); // ad (time_multi.v)
+selectCodeEditor("time_multi.v", 46, 291, false, false, false, false, true); // ad (time_multi.v) - Double Click
+selectCodeEditor("time_multi.v", 46, 291); // ad (time_multi.v)
+selectCodeEditor("time_multi.v", 46, 291, false, false, false, false, true); // ad (time_multi.v) - Double Click
+selectCodeEditor("time_multi.v", 28, 225); // ad (time_multi.v)
+selectCodeEditor("time_multi.v", 28, 225); // ad (time_multi.v)
+selectCodeEditor("time_multi.v", 28, 225, false, false, false, false, true); // ad (time_multi.v) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 04m:32s
+// Elapsed Time for: 'L.f': 04m:34s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "time_mux_fsm.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)

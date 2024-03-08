@@ -16,3 +16,6 @@ open_project C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.xpr
 update_compile_order -fileset sources_1
 add_files -norecurse {C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_mux_fsm.v C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/time_multi.v}
 update_compile_order -fileset sources_1
+close [ open C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/clk_div.v w ]
+add_files C:/Users/gabri/Desktop/UT/junior/EE316/lab_4/lab_4.srcs/sources_1/new/clk_div.v
+update_compile_order -fileset sources_1
